@@ -36,7 +36,14 @@ Common Modeling Language: A Universal Schema (CML:AUS) defines methods of commun
 
 ## Goals of CML:AUS
 
-### CML:AUS maps to nearest neighbor using vectorized clustering for resource-optimized refactoring of data ecosystems.
+### CML:AUS enables resource-optimized refactoring of data ecosystems by mapping to nearest neighbor using cluster analysis of vector clouds.
+
+### CML:AUS is human-readable.
+
+### CML:AUS is machine-readable.
+
+### CML:AUS or descendent meta-languages will be a data ecosystem standard.
+- like voltage and outlet/plug design re: electricity
 
 ## CML:AUS Definitions
 
