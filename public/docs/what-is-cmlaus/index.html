@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="What is CML:AUS? # Overview # Common Modeling Language: A Universal Schema (CML:AUS) defines methods of communication across data systems and data ecosystems. CML:AUS is intended to be supported by a variety of tools as an eventual standard after sufficient time for comment, iteration, and revision.
+CML:AUS described data systems, data ecosystems, and their components including: # sources (media interfaces/specs - e.g. data warehouses, users, databases, applications, images, video, audio, etc.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/what-is-cmlaus/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="What is CML:AUS?">
+  <meta property="og:description" content="What is CML:AUS? # Overview # Common Modeling Language: A Universal Schema (CML:AUS) defines methods of communication across data systems and data ecosystems. CML:AUS is intended to be supported by a variety of tools as an eventual standard after sufficient time for comment, iteration, and revision.
+CML:AUS described data systems, data ecosystems, and their components including: # sources (media interfaces/specs - e.g. data warehouses, users, databases, applications, images, video, audio, etc.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>What is CML:AUS? | My New Hugo Site</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/docs/what-is-cmlaus/">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.2b6333591953211fc501497937cbcdc6fcf29ad8ccca8f8e9dfa3e18bbb5848a.js" integrity="sha256-K2MzWRlTIR/FAUl5N8vNxvzymtjMyo&#43;Onfo&#43;GLu1hIo=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>My New Hugo Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/what-is-cmlaus/" class="active">What is CML:AUS?</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>What is CML:AUS?</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#cmlaus-described-data-systems-data-ecosystems-and-their-components-including">CML:AUS described data systems, data ecosystems, and their components including:</a></li>
+        <li><a href="#cmlaus-is-a-meta-language-it-can-be-expressed-in-multiple-formats-including">CML:AUS is a meta-language. It can be expressed in multiple formats including:</a></li>
+        <li><a href="#cmlaus-is-based-on-a-data-model-of-distributed-directed-graphs-and-vectorized-operations">CML:AUS is based on a data model of distributed directed graphs and vectorized operations.</a></li>
+      </ul>
+    </li>
+    <li><a href="#goals-of-cmlaus">Goals of CML:AUS</a>
+      <ul>
+        <li><a href="#cmlaus-maps-to-nearest-neighbor-using-vectorized-clustering-for-resource-optimized-refactoring-of-data-ecosystems">CML:AUS maps to nearest neighbor using vectorized clustering for resource-optimized refactoring of data ecosystems.</a></li>
+      </ul>
+    </li>
+    <li><a href="#cmlaus-definitions">CML:AUS Definitions</a>
+      <ul>
+        <li><a href="#cmlaus-definitions-are-able-to-reference-internal-and-external-cmlaus-definitions-or-resources-ie-entitiesinstances">CML:AUS definitions are able to reference internal and external CML:AUS definitions or resources (i.e. entities/instances)</a></li>
+        <li><a href="#cmlaus-definitions-of-transformations">CML:AUS definitions of transformations:</a></li>
+        <li><a href="#cmlaus-templates-should-be-self-documenting-through">CML:AUS templates should be self-documenting through:</a></li>
+        <li><a href="#every-cmlaus-definition-and-reference-should-include-an-absolute-version-but-it-can-also-include">Every CML:AUS definition and reference should include an absolute version, but it can also include:</a></li>
+        <li><a href="#cmlaus-definitions-can-reference-external-files-that-are-not-cmlaus">CML:AUS definitions can reference external files that are not CML:AUS</a></li>
+        <li><a href="#cmlaus-definitions-can-inherit-or-import-from-multiple-other-cmlaus-definitions">CML:AUS definitions can inherit or import from multiple other CML:AUS definitions</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="what-is-cmlaus">
+  What is CML:AUS?
+  <a class="anchor" href="#what-is-cmlaus">#</a>
+</h1>
+<h2 id="overview">
+  Overview
+  <a class="anchor" href="#overview">#</a>
+</h2>
+<p>Common Modeling Language: A Universal Schema (CML:AUS) defines methods of communication across data systems and data ecosystems. CML:AUS is intended to be supported by a variety of tools as an eventual standard after sufficient time for comment, iteration, and revision.</p>
+<h3 id="cmlaus-described-data-systems-data-ecosystems-and-their-components-including">
+  CML:AUS described data systems, data ecosystems, and their components including:
+  <a class="anchor" href="#cmlaus-described-data-systems-data-ecosystems-and-their-components-including">#</a>
+</h3>
+<ul>
+<li>sources (media interfaces/specs - e.g. data warehouses, users, databases, applications, images, video, audio, etc.)</li>
+<li>targets (media interfaces/specs - e.g. data warehouses, users, databases, applications, images, video, audio, etc.)</li>
+<li>storage (media - e.g. data warehouses, block storage, databases, files, etc.)</li>
+<li>stage (e.g. dev, production, etc.)</li>
+<li>transformations (i.e. algorithms)</li>
+<li>types (i.e. schemas or data models)</li>
+<li>interfaces (i.e. scope boundaries, APIs, UIs)</li>
+</ul>
+<h3 id="cmlaus-is-a-meta-language-it-can-be-expressed-in-multiple-formats-including">
+  CML:AUS is a meta-language. It can be expressed in multiple formats including:
+  <a class="anchor" href="#cmlaus-is-a-meta-language-it-can-be-expressed-in-multiple-formats-including">#</a>
+</h3>
+<ul>
+<li>YAML</li>
+<li>TOML</li>
+<li>JSON</li>
+<li>XML</li>
+<li>EDN</li>
+<li>or even a collection of CSVs</li>
+</ul>
+<h3 id="cmlaus-is-based-on-a-data-model-of-distributed-directed-graphs-and-vectorized-operations">
+  CML:AUS is based on a data model of distributed directed graphs and vectorized operations.
+  <a class="anchor" href="#cmlaus-is-based-on-a-data-model-of-distributed-directed-graphs-and-vectorized-operations">#</a>
+</h3>
+<h2 id="goals-of-cmlaus">
+  Goals of CML:AUS
+  <a class="anchor" href="#goals-of-cmlaus">#</a>
+</h2>
+<h3 id="cmlaus-maps-to-nearest-neighbor-using-vectorized-clustering-for-resource-optimized-refactoring-of-data-ecosystems">
+  CML:AUS maps to nearest neighbor using vectorized clustering for resource-optimized refactoring of data ecosystems.
+  <a class="anchor" href="#cmlaus-maps-to-nearest-neighbor-using-vectorized-clustering-for-resource-optimized-refactoring-of-data-ecosystems">#</a>
+</h3>
+<h2 id="cmlaus-definitions">
+  CML:AUS Definitions
+  <a class="anchor" href="#cmlaus-definitions">#</a>
+</h2>
+<h3 id="cmlaus-definitions-are-able-to-reference-internal-and-external-cmlaus-definitions-or-resources-ie-entitiesinstances">
+  CML:AUS definitions are able to reference internal and external CML:AUS definitions or resources (i.e. entities/instances)
+  <a class="anchor" href="#cmlaus-definitions-are-able-to-reference-internal-and-external-cmlaus-definitions-or-resources-ie-entitiesinstances">#</a>
+</h3>
+<ul>
+<li>Internal references
+<ul>
+<li>Referenced using URN</li>
+</ul>
+</li>
+<li>External references
+<ul>
+<li>Referenced using URN with URL</li>
+</ul>
+</li>
+<li>Both reference types (internal and external) use a common &ldquo;ref&rdquo; form described for each language used (YAML/JSON/XML/etc.)</li>
+</ul>
+<h3 id="cmlaus-definitions-of-transformations">
+  CML:AUS definitions of transformations:
+  <a class="anchor" href="#cmlaus-definitions-of-transformations">#</a>
+</h3>
+<ul>
+<li>in some cases may only include conceptual steps</li>
+<li>or they could include the actual implementation (or versions of it),</li>
+<li>or they could contain both.</li>
+<li>Transformations are any form of descriptions of algorithms.</li>
+</ul>
+<h3 id="cmlaus-templates-should-be-self-documenting-through">
+  CML:AUS templates should be self-documenting through:
+  <a class="anchor" href="#cmlaus-templates-should-be-self-documenting-through">#</a>
+</h3>
+<ul>
+<li>external references</li>
+<li>internal references</li>
+<li>clear definitions</li>
+<li>clear naming conventions</li>
+<li>&ldquo;docs&rdquo; property/attribute method (i.e. docs as data)</li>
+</ul>
+<h3 id="every-cmlaus-definition-and-reference-should-include-an-absolute-version-but-it-can-also-include">
+  Every CML:AUS definition and reference should include an absolute version, but it can also include:
+  <a class="anchor" href="#every-cmlaus-definition-and-reference-should-include-an-absolute-version-but-it-can-also-include">#</a>
+</h3>
+<ul>
+<li>a relative version</li>
+<li>version group</li>
+<li>one or more patterns</li>
+</ul>
+<h3 id="cmlaus-definitions-can-reference-external-files-that-are-not-cmlaus">
+  CML:AUS definitions can reference external files that are not CML:AUS
+  <a class="anchor" href="#cmlaus-definitions-can-reference-external-files-that-are-not-cmlaus">#</a>
+</h3>
+<ul>
+<li>this requires at least that at a minimal CML:AUS definition has been defined and referenced (either inline or via a secondary reference)</li>
+</ul>
+<h3 id="cmlaus-definitions-can-inherit-or-import-from-multiple-other-cmlaus-definitions">
+  CML:AUS definitions can inherit or import from multiple other CML:AUS definitions
+  <a class="anchor" href="#cmlaus-definitions-can-inherit-or-import-from-multiple-other-cmlaus-definitions">#</a>
+</h3>
+<ul>
+<li>Each inheritance or import statement is itself a &ldquo;ref&rdquo; statement and it overwrites prior inheritance statements if the namespace overlaps.</li>
+<li>Can explicitly exclude or include subsets.</li>
+<li>Use a namespace or alias to avoid overlap within a definition.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#cmlaus-described-data-systems-data-ecosystems-and-their-components-including">CML:AUS described data systems, data ecosystems, and their components including:</a></li>
+        <li><a href="#cmlaus-is-a-meta-language-it-can-be-expressed-in-multiple-formats-including">CML:AUS is a meta-language. It can be expressed in multiple formats including:</a></li>
+        <li><a href="#cmlaus-is-based-on-a-data-model-of-distributed-directed-graphs-and-vectorized-operations">CML:AUS is based on a data model of distributed directed graphs and vectorized operations.</a></li>
+      </ul>
+    </li>
+    <li><a href="#goals-of-cmlaus">Goals of CML:AUS</a>
+      <ul>
+        <li><a href="#cmlaus-maps-to-nearest-neighbor-using-vectorized-clustering-for-resource-optimized-refactoring-of-data-ecosystems">CML:AUS maps to nearest neighbor using vectorized clustering for resource-optimized refactoring of data ecosystems.</a></li>
+      </ul>
+    </li>
+    <li><a href="#cmlaus-definitions">CML:AUS Definitions</a>
+      <ul>
+        <li><a href="#cmlaus-definitions-are-able-to-reference-internal-and-external-cmlaus-definitions-or-resources-ie-entitiesinstances">CML:AUS definitions are able to reference internal and external CML:AUS definitions or resources (i.e. entities/instances)</a></li>
+        <li><a href="#cmlaus-definitions-of-transformations">CML:AUS definitions of transformations:</a></li>
+        <li><a href="#cmlaus-templates-should-be-self-documenting-through">CML:AUS templates should be self-documenting through:</a></li>
+        <li><a href="#every-cmlaus-definition-and-reference-should-include-an-absolute-version-but-it-can-also-include">Every CML:AUS definition and reference should include an absolute version, but it can also include:</a></li>
+        <li><a href="#cmlaus-definitions-can-reference-external-files-that-are-not-cmlaus">CML:AUS definitions can reference external files that are not CML:AUS</a></li>
+        <li><a href="#cmlaus-definitions-can-inherit-or-import-from-multiple-other-cmlaus-definitions">CML:AUS definitions can inherit or import from multiple other CML:AUS definitions</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
